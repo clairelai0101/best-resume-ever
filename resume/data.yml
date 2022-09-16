@@ -2,26 +2,26 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: Claire
   middle:
-  last: Doe
+  last: Lai
 about: Hi, my name is John Doe. I'm just about the most boring type of person you could
        possibly imagine. I like collecting leaves from the tree in my back yard and documenting
        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+position: Network Engineer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1995
+  location: Chunghua
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Chungyo Group
+  position: Network Engeneer
+  timeperiod: since Octorber 2017
+  description: 
+  website: https://cycareers.com.tw/
 
 - company: Company B
   position: Frontend Developer
