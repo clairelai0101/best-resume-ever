@@ -18,19 +18,19 @@ experience:
 - company: Chungyo Group
   position: Network Engeneer
   timeperiod: since Octorber 2017
-  description: 擔任網路工程師。工作內容主要可以區分為2大項目
-                一、網路環境維運，那環境架構還可以分為3大 Production、OOB辦公室網路
-                二、網管系統維護管理、線路流量管理
-                    公司的網路設備約莫500台，一半以上是Cisco 設備、其他還有juniper、fortinet、digipassport、broadcade
-                    我們有自己的AS number，並且有中國三大電信線路以及多家Global BGP peering
-                    1. 網路環境維運 （設備參數設定、韌體升級）
-                    2. DHCP server、VPN server建置與維運
-                    3. Out Of Band 網路監控調整維運
-                    4. Data Center 核心交換器、邊際交換器優化與維運
-                    5. One-Time Password(OTP)防火牆控管、韌體升級、網路架構優化與維運
-                    7. 異常事件處理
-                    8. Oncall
-                    9. 報告撰寫（採購報告、施工報告、結案報告）
+  description: 擔任網路工程師。>工作內容主要可以區分為2大項目>
+                一、網路環境維運，那環境架構還可以分為3大 Production、OOB辦公室網路>
+                二、網管系統維護管理、線路流量管理>
+                    公司的網路設備約莫500台，一半以上是Cisco 設備、其他還有juniper、fortinet、digipassport、broadcade>
+                    我們有自己的AS number，並且有中國三大電信線路以及多家Global BGP peering>
+                    1. 網路環境維運 （設備參數設定、韌體升級）>
+                    2. DHCP server、VPN server建置與維運>
+                    3. Out Of Band 網路監控調整維運>
+                    4. Data Center 核心交換器、邊際交換器優化與維運>
+                    5. One-Time Password(OTP)防火牆控管、韌體升級、網路架構優化與維運>
+                    7. 異常事件處理>
+                    8. Oncall>
+                    9. 報告撰寫（採購報告、施工報告、結案報告）>
 
   website: https://cycareers.com.tw/
 
