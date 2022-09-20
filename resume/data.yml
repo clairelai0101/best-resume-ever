@@ -19,24 +19,26 @@ experience:
   position: Network Engeneer
   timeperiod: since Octorber 2017
   description: 擔任網路工程師。
-  website: https://cycareers.com.tw/
+  website: https://cycareers.com.tw
 
 - company: 日辰資訊有限公司
   position: 駐點工程師
   timeperiod: July 2017 - Octorbor 2017
+  #description: 擔任駐點工程師，於客戶端進行網管軟體HP NNMi 維護服務，提供流量報表以及虛擬機簡易排錯，針對客戶需求以snmp interface alias filter 搭配Netflow 流量製作報表，並提供客戶總設備健康度檢視報表(cpu memory top high、interface packet error rate、discard rate)，協助客戶進行網路環境維運穩定運作。 
   description: 擔任駐點工程師，於客戶端進行網管軟體HP NNMi 維護服務，提供流量報表以及虛擬機簡易排錯，針對客戶需求以snmp interface alias filter 搭配Netflow 流量製作報表，並提供客戶總設備健康度檢視報表(cpu memory top high、interface packet error rate、discard rate)，協助客戶進行網路環境維運穩定運作。 
-  website: https://www.ausenior.com.tw/
+  
+  website: https://www.ausenior.com.tw
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Mcdonload
+  position: Part Time work
+  timeperiod: November 2013 - Jun 2014
+  description: 櫃檯及得來速點餐、例行清潔工作
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Banchelor of Information Management
+  timeperiod: September 2013 - Jun 2017
+  description: Major in Information Management, University Tunghai, Taichung, Taiwan.
+  website: https://www.thu.edu.tw
 
 - degree: Bachelor of Science
   timeperiod: March 2009 - December 2011
@@ -44,21 +46,21 @@ education:
 
 # skill level goes from 0 to 100
 skills:
-- name: HTML5
+- name: Cisco
   level: 99
-- name: CSS3
+- name: Juniper
   level: 95
-- name: JavaScript
+- name: Vmware
   level: 97
-- name: Node.js
+- name: Linux
   level: 93
-- name: Angular 2
+- name: python
   level: 60
-- name: TypeScript
+- name: SDWAN
   level: 80
-- name: ES.Next
+- name: Dynamic Protocol
   level: 70
-- name: Docker
+- name: 
   level: 99
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
