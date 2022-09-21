@@ -4,7 +4,7 @@
 name:
   first: Claire
   middle:
-  last: 賴彥瑾
+  last: "LAI \n\賴彥瑾"
 about:  "CCIE(Enterprise Infrastructure)#66257,JNCIP-SP,VCP.\n\
                        Deep understanding of networking protocols, including BGP,FHRP, EIGRP, OSPF, QoS, 802.x, DHCP, AAA, DMVPN .\n\
                        Experience in Aruba SDWAN,Cisco Viptela SDWAN"
@@ -82,13 +82,13 @@ skills:
 knowledge: Also proficient in SNMP/Netflow traffic analysis
 
 
+projects:
 - name: Aruba SDWAN 導入OOB
   platform: 
   timeperiod: July 2022
   description: "OOB 導入Aruba Silver Peak SDWAN 解決方案，傳統路由簡化、IPsec tunnel加強資安強度、雙edge router HA、業務流量QoS效益"
   url: http：//www.484.life/resume/
 
-projects:
 - name: 東南亞客戶VPN服務建置
   platform: 
   timeperiod: January 2022
