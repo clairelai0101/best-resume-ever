@@ -4,7 +4,7 @@
 name:
   first: Claire
   middle:
-  last: Lai
+  last: 賴彥瑾
 about:  "CCIE(Enterprise Infrastructure)#66257,JNCIP-SP,VCP.\n\
                        Deep understanding of networking protocols, including BGP,FHRP, EIGRP, OSPF, QoS, 802.x, DHCP, AAA, DMVPN .\n\
                        Experience in Aruba SDWAN,Cisco Viptela SDWAN"
@@ -81,6 +81,13 @@ skills:
 
 knowledge: Also proficient in SNMP/Netflow traffic analysis
 
+
+- name: Aruba SDWAN 導入OOB
+  platform: 
+  timeperiod: July 2022
+  description: "OOB 導入Aruba Silver Peak SDWAN 解決方案，傳統路由簡化、IPsec tunnel加強資安強度、雙edge router HA、業務流量QoS效益"
+  url: http：//www.484.life/resume/
+
 projects:
 - name: 東南亞客戶VPN服務建置
   platform: 
@@ -88,12 +95,19 @@ projects:
   description: "架設一組Fortigate 200E(HA）作為VPN Server，與Core Router建立BGP peering，客端撥通VPN後可走專線tunnel連線公司服務。\n\
                  2條專線跑RSTP協議，快速收斂，跨國連線不中斷。"
   url: http：//www.484.life/resume/
-- name: Aruba SDWAN 導入OOB
+
+- name: 連外線路品質偵測案
   platform: 
-  timeperiod: July 2022
-  description: "Out Of Backbone 導入Aruba Silver Peak SDWAN 解決方案，取代舊BGP
-                 2條專線跑RSTP協議，快速收斂，跨國連線不中斷。"
+  timeperiod: February 2021
+  description: "BGP線路獨立宣告加上流量ingress 套用Access-list PBR。使session去回同路。測試機線路品質測試結果前端以Zabbix作為儀表板時時監測連線品質差異及波動。"
   url: http：//www.484.life/resume/
+
+- name: ManageEngine、Solarwinds網管系統佈建及管理
+  platform: 
+  timeperiod: September 2019 - now 2022
+  description: "Auto Discover Data Center 所有網路設備SNMP、排程進行設定檔備份，維護資料中心網路基礎架構穩定運作、並提升人員應變災難復原效率。客製儀表板顯示重要接口流量"
+  url: http：//www.484.life/resume/
+
 # optional, not all resume templates have hobbies included
 hobbies:
 - name: watch TV series、baking
