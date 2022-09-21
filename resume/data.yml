@@ -43,7 +43,7 @@ experience:
 - company: 葳群廣告有限公司
   position: Part Time work
   timeperiod: July 2016 - August 2016
-  description: 在「台中國際踩舞祭」活動中，協助攤位招商、接待聯絡表演團體、安排餐食
+  description: 承包協辦台中市政府活動「台中國際踩舞祭」協助招商、接待聯絡表演團體、安排餐食
   website: https://zh-tw.facebook.com/people/%E8%91%B3%E7%BE%A4%E5%BB%A3%E5%91%8A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/100063803687520/
 
 - company: 台中國際旅展
@@ -83,32 +83,26 @@ knowledge: Also proficient in SNMP/Netflow traffic analysis
 
 projects:
 - name: 東南亞客戶VPN服務建置
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+  platform: 
+  timeperiod: January 2022
+  description: 架設一組Fortigate 200E(HA）作為VPN Server，與Core Router建立BGP peering，客端撥通VPN後可走專線tunnel連線公司服務。
+                 2條專線跑RSTP協議，快速收斂，跨國連線不中斷。
+  url: http：//www.484.life/resume/
 
 # optional, not all resume templates have hobbies included
 hobbies:
-- name: see serial
-  iconClass: 
-  url: https://example.com
+- name: watch TV series、baking
 
-- name: playing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+#contributions:
+#- name: best-resume-ever
+#  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#  url: https://github.com/salomonelli/best-resume-ever
 
 contact:
   email: asd207641@gmail.com
-  phone: 
-  street: na
-  city: Chunghua
-  website: http://www.484.life
+  phone: +886910955626
+  city: Taichung
+  website: http://www.484.life:8080
   github: clairelai0101
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
