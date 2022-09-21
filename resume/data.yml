@@ -40,7 +40,18 @@ experience:
   description: 擔任駐點工程師，於客戶端進行網管軟體HP NNMi 維護服務，提供流量報表以及虛擬機簡易排錯，針對客戶需求以snmp interface alias filter 搭配Netflow 流量製作報表，並提供客戶總設備健康度檢視報表(cpu memory top high、interface packet error rate、discard rate)，協助客戶進行網路環境維運穩定運作。 
   website: https://www.ausenior.com.tw
 
-- company: Mcdonload
+- company: 葳群廣告有限公司
+  position: Part Time work
+  timeperiod: July 2016 - August 2016
+  description: 在「台中國際踩舞祭」活動中，協助攤位招商、接待聯絡表演團體、安排餐食
+  website: https://zh-tw.facebook.com/people/%E8%91%B3%E7%BE%A4%E5%BB%A3%E5%91%8A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/100063803687520/
+
+- company: 台中國際旅展
+  position: Part Time work
+  timeperiod: November 2016 - November 2016
+  description: 住宿券銷售
+
+- company: McDonald‘s
   position: Part Time work
   timeperiod: November 2013 - Jun 2014
   description: 櫃檯及得來速點餐、例行清潔工作
@@ -51,33 +62,27 @@ education:
   description: Major in Information Management, University Tunghai, Taichung, Taiwan.
   website: https://www.thu.edu.tw
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
-
 # skill level goes from 0 to 100
 skills:
 - name: Cisco
   level: 99
 - name: Juniper
-  level: 95
-- name: Vmware
-  level: 97
-- name: Linux
-  level: 93
-- name: python
-  level: 60
-- name: SDWAN
-  level: 80
-- name: Dynamic Protocol
-  level: 70
-- name: 
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Vmware
+  level: 99
+- name: Linux
+  level: 99
+- name: python
+  level: 99
+- name: SDWAN
+  level: 99
+- name: Dynamic Protocol
+  level: 99
+
+knowledge: Also proficient in SNMP/Netflow traffic analysis
 
 projects:
-- name: best-resume-ever
+- name: 東南亞客戶VPN服務建置
   platform: Vue
   timeperiod: February 2016
   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
