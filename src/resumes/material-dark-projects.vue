@@ -347,7 +347,7 @@ h4 {
     }
 }
 .rightCol {
-    width: 30%;
+    width: 50%;
     height: 100%;
     float: left;
     display: flex;

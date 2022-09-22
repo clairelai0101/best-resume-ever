@@ -85,6 +85,7 @@
     "pdf-image": "2.0.0",
     "postcss": "7.0.4",
     "postcss-cssnext": "3.1.0",
+    "postcss-px-to-viewport": "^1.1.1",
     "puppeteer": "1.8.0",
     "rename": "1.0.4",
     "request": "2.88.0",
