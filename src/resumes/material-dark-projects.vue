@@ -103,8 +103,8 @@
       <div class="block-helper"></div>
       <div class="headline">{{experience.position}} - {{experience.company}}</h3>
         <div class="subheadline">{{experience.timeperiod}}</div>
-        <p class="info">
-          {{experience.description}}
+        <p class="info">          
+          <div class="text-wrapper">{{experience.description}}</div>
         </p>
       </div>
     </div>
@@ -268,9 +268,9 @@ h4 {
     opacity: 1;
 }
 .farRightCol {
-    width: 30%;
+    width: 39%;
     height: 100%;
-    float: right;
+    float: left;
     display: flex;
     margin-top: 120px;
     flex-direction: column;
@@ -347,7 +347,7 @@ h4 {
     }
 }
 .rightCol {
-    width: 50%;
+    width: 39%;
     height: 100%;
     float: left;
     display: flex;
@@ -366,6 +366,9 @@ h4 {
             display: block;
             font-size: 15px;
             color: rgba(0,0,0,0.870588);
+        }
+        .text-wrapper {
+          white-space: pre-wrap;
         }
         .subheadline {
             color: rgba(0,0,0,0.541176);
@@ -426,7 +429,7 @@ h4 {
     }
 }
 .leftCol {
-    width: 35%;
+    width: 300px;
     height: 100%;
     float: left;
     padding: 0;
@@ -447,10 +450,9 @@ h4 {
         background-color: white;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
         position: relative;
         width: 100%;
-        height: 277px;
+        height: 306px;
     }
     .item {
         width: 100%;
