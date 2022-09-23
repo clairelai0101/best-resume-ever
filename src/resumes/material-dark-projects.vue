@@ -451,8 +451,9 @@ h4 {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        width: 100%;
+        width: 75%;
         height: 306px;
+        margin: auto;
     }
     .item {
         width: 100%;
@@ -539,6 +540,7 @@ h4 {
 #myselfpic {
     background-image: url('../../resume/id.jpg');
     color: black;
+    margin: auto;
 }
 #githubIcon {
     width: 25px;
