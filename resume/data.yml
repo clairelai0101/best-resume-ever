@@ -2,9 +2,10 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: Claire
+  first: "Claire\n
+          賴彥瑾"
   middle:
-  last: "LAI \n\賴彥瑾"
+  last: 
 about:  "CCIE#66257\n
                        JNCIP-SP,VCP.\n
                        Deep understanding of networking protocols, including BGP,FHRP, EIGRP, OSPF, QoS, DHCP, AAA, DMVPN .\n

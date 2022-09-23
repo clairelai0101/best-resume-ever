@@ -94,7 +94,7 @@
 
   <div class="rightCol">
     <div class="title">
-      <h2>{{person.name.first}}  {{person.name.last}}</h2>
+      <h2 class="text-wrapper">{{person.name.first}}  {{person.name.last}}</h2>
       <div>{{person.position}}</div>
       <div class="text-wrapper">{{person.about}}</div>
     </div>
@@ -165,6 +165,9 @@ a {
     padding-top: 20px;
     bottom: 25px;
     width:100%;
+    .text-wrapper {
+      white-space: pre-wrap;
+    }
     h2 {
         text-transform: uppercase;
         display: block;
