@@ -147,6 +147,7 @@ export default Vue.component(name, getVueOptions(name));
 .resume {
     font-family: 'Roboto' !important;
     background: #cccccc;
+    overflow:scroll;
 }
 a {
     cursor: pointer;
