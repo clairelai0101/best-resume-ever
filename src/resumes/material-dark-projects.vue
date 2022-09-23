@@ -96,7 +96,7 @@
     <div class="title">
       <h2>{{person.name.first}}  {{person.name.last}}</h2>
       <div>{{person.position}}</div>
-      <div>{{person.about}}</div>
+      <div class="text-wrapper">{{person.about}}</div>
     </div>
 
     <div class="section-headline">{{ lang.experience }}</div>
@@ -200,6 +200,9 @@ a {
         text-transform: uppercase;
         opacity: 0.8;
     }
+    .text-wrapper {
+      white-space: pre-wrap;
+    }
 }
 .section-headline {
     text-transform: uppercase;
@@ -272,9 +275,10 @@ h4 {
     width: 39%;
     height: 100%;
     float: left;
+    display: flex;
     margin-top: 230px;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 20px;
     .block {
         width: 90%;
         position: relative;
