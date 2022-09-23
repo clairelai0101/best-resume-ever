@@ -43,13 +43,13 @@ experience:
   description: 擔任駐點工程師，於客戶端進行網管軟體HP NNMi 維護服務，提供流量報表以及虛擬機簡易排錯，針對客戶需求以snmp interface alias filter 搭配Netflow 流量製作報表，並提供客戶總設備健康度檢視報表(cpu memory top high、interface packet error rate、discard rate)，協助客戶進行網路環境維運穩定運作。 
   website: https://www.ausenior.com.tw
 
-- company: 葳群廣告有限公司/台中國際旅展/McDonald‘s
-  position: Part Time work
-  timeperiod: July 2016 - August 2016
-  description: "承包協辦台中市政府活動「台中國際踩舞祭」協助招商、接待聯絡表演團體、安排餐食\n
-                住宿券銷售。\n
-                櫃檯及得來速點餐、例行清潔工作。\n"
-  website: https://zh-tw.facebook.com/people/%E8%91%B3%E7%BE%A4%E5%BB%A3%E5%91%8A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/100063803687520/
+#- company: 葳群廣告有限公司/台中國際旅展/McDonald‘s
+#  position: Part Time work
+#  timeperiod: July 2016 - August 2016
+#  description: "承包協辦台中市政府活動「台中國際踩舞祭」協助招商、接待聯絡表演團體、安排餐食\n
+#                住宿券銷售。\n
+#                櫃檯及得來速點餐、例行清潔工作。\n"
+#  website: https://zh-tw.facebook.com/people/%E8%91%B3%E7%BE%A4%E5%BB%A3%E5%91%8A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/100063803687520/
 
 #- company: 台中國際旅展
 #  position: Part Time work
@@ -124,7 +124,7 @@ hobbies:
 
 contact:
   email: asd207641@gmail.com
-  phone: +886910955626
+# phone: +886910955626
   city: Taichung
   website: http://www.484.life:8080/#/resume/material-dark-projects
   github: clairelai0101
