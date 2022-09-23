@@ -357,6 +357,7 @@ h4 {
     flex-direction: column;
     margin-left: 40px;
     overflow: visible;
+    margin-bottom: auto;
     .block {
         width: 90%;
         position: relative;
