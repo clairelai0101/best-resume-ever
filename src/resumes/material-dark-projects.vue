@@ -263,6 +263,7 @@ h2 {
     margin: 0;
     font-size: 22pt;
     line-height: 37pt;
+    display:flex;
 }
 h4 {
     font-weight: 400;
@@ -276,7 +277,7 @@ h4 {
     height: 100%;
     float: left;
     display: flex;
-    margin-top: 230px;
+    margin-top: 250px;
     flex-direction: column;
     margin-left: 20px;
     .block {
