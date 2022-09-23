@@ -285,7 +285,6 @@ h4 {
     margin-top: 300px;
     flex-direction: column;
     margin-left: 10px;
-    margin-right: 20px;
     .block {
         width: 90%;
         position: relative;
@@ -363,10 +362,9 @@ h4 {
     height: 100%;
     float: left;
     display: flex;
-    padding-left: 10px;
     flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 15px;
     .block {
         width: 90%;
         position: relative;
@@ -453,7 +451,7 @@ h4 {
     background-color: #16151c;
     overflow: hidden;
     display: block;
-    margin-right: 10px;
+    margin-right: 30px;
     .section-headline {
         color: rgba(255,255,255,0.54);
     }
