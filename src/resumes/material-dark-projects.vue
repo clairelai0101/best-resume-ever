@@ -96,6 +96,7 @@
     <div class="title">
       <h2>{{person.name.first}}  {{person.name.last}}</h2>
       <div>{{person.position}}</div>
+      <div>{{person.about}}</div>
     </div>
 
     <div class="section-headline">{{ lang.experience }}</div>
@@ -146,6 +147,7 @@ export default Vue.component(name, getVueOptions(name));
 .resume {
     font-family: 'Roboto' !important;
     background: #cccccc;
+    overflow:scroll;
 }
 a {
     cursor: pointer;
