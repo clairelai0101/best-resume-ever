@@ -272,11 +272,9 @@ h4 {
     width: 39%;
     height: 100%;
     float: left;
-    display: flex;
     margin-top: 230px;
     flex-direction: column;
     margin-left: 40px;
-    margin-bottom: 100%;
     .block {
         width: 90%;
         position: relative;
@@ -357,7 +355,6 @@ h4 {
     padding-left: 10px;
     flex-direction: column;
     margin-left: 40px;
-    margin-bottom: 100%;
     .block {
         width: 90%;
         position: relative;
