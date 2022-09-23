@@ -11,7 +11,7 @@
       <div class="icon">
         <i class="material-icons">account_circle</i>
       </div>
-      <div class="text">》
+      <div class="text">
         <ul>
           <li> {{lang.born}} {{person.birth.year}} {{lang.bornIn}} {{person.birth.location}}</li>
         </ul>
@@ -273,8 +273,9 @@ h4 {
     height: 100%;
     float: left;
     display: flex;
-    margin-top: 120px;
+    margin-top: 230px;
     flex-direction: column;
+    margin-left: 40px;
     .block {
         width: 90%;
         position: relative;
@@ -354,6 +355,7 @@ h4 {
     display: flex;
     padding-left: 10px;
     flex-direction: column;
+    margin-left: 40px;
     .block {
         width: 90%;
         position: relative;
