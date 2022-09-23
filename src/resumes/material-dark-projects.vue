@@ -164,6 +164,7 @@ a {
     padding-left: 20px;
     padding-top: 20px;
     bottom: 25px;
+    width:90%;
     h2 {
         text-transform: uppercase;
         display: block;
