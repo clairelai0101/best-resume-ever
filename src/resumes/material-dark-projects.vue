@@ -11,7 +11,7 @@
       <div class="icon">
         <i class="material-icons">account_circle</i>
       </div>
-      <div class="text">
+      <div class="text">》
         <ul>
           <li> {{lang.born}} {{person.birth.year}} {{lang.bornIn}} {{person.birth.location}}</li>
         </ul>
@@ -108,15 +108,6 @@
         </p>
       </div>
     </div>
-
-    <div class="section-headline">{{ lang.education }}</div>
-    <div class="block" v-for="education in person.education">
-      <div class="block-helper"></div>
-      <div class="headline">{{education.degree}}</div>
-      <p class="info">
-        {{education.timeperiod}}, {{education.description}}
-      </p>
-    </div>
   </div>
   <div class="farRightCol">
     <div class="section-headline">{{ lang.projects }}</div>
@@ -126,6 +117,14 @@
         <div class="subheadline">{{project.timeperiod}}</div>
         <p class="info">{{project.description}}</p>
       </div>
+    </div>
+    <div class="section-headline">{{ lang.education }}</div>
+    <div class="block" v-for="education in person.education">
+      <div class="block-helper"></div>
+      <div class="headline">{{education.degree}}</div>
+      <p class="info">
+        {{education.timeperiod}}, {{education.description}}
+      </p>
     </div>
   </div>
 
