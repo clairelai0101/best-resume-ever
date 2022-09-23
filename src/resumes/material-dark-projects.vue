@@ -164,7 +164,7 @@ a {
     padding-left: 20px;
     padding-top: 20px;
     bottom: 25px;
-    width:90%;
+    width:100%;
     h2 {
         text-transform: uppercase;
         display: block;
@@ -200,6 +200,7 @@ a {
         padding-top: 0;
         text-transform: uppercase;
         opacity: 0.8;
+        width:90%;
     }
     .text-wrapper {
       white-space: pre-wrap;
