@@ -13,9 +13,8 @@
             {{ lang.about }}
           </div>
 
-          <div class="section-content section-content--plain">
+          <div class="section-content text-wrapper">
             {{ person.about }}
-            <br/>
             <br/>
             {{ person.knowledge }}
           </div>
@@ -113,8 +112,8 @@
                 <span class="section-content__plain">{{ experience.location }}</span>
               </span>
 
-              <div class="section-content__text">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">{{ experience.description }}</span>
+              <div class="text-wrapper,section-content__text">{{ experience.timeperiod }}</div>
+              <span class="text-wrapper">{{ experience.description }}</span>
             </a>
           </div>
         </div>
@@ -232,6 +231,7 @@ export default Vue.component(name, getVueOptions(name));
   border: 5px solid @accent-color;
   content: url('../../resume/id.jpg');
   z-index: 2;
+  margin: auto;
 }
 
 .banner {
@@ -268,6 +268,9 @@ export default Vue.component(name, getVueOptions(name));
   &__right {
     height: 100%;
     padding: @base-padding;
+  .text-wrapper {
+      white-space: pre-wrap;
+    }
   }
 
   &__left {
@@ -288,7 +291,9 @@ export default Vue.component(name, getVueOptions(name));
 .section {
   margin: 20px 0;
 }
-
+.text-wrapper {
+  white-space: pre-wrap;
+}
 .section-link,
 .section-headline {
   display: flex !important;
@@ -317,7 +322,9 @@ export default Vue.component(name, getVueOptions(name));
   margin-top: 5px;
   padding-left: 32px;
   font-size: 14px;
-
+  .text-wrapper {
+    white-space: pre-wrap;
+  }
   &__item {
     display: block;
     margin-bottom: 5px;
@@ -358,6 +365,9 @@ export default Vue.component(name, getVueOptions(name));
   &--plain {
     padding: 0;
   }
+  .text-wrapper {
+    white-space: pre-wrap;
+  }
 }
 
 .section-content-grid {
@@ -365,7 +375,9 @@ export default Vue.component(name, getVueOptions(name));
   flex-wrap: wrap;
   margin-top: 5px;
   margin-bottom: 5px;
-}
+  .text-wrapper {
+    white-space: pre-wrap;
+  }}
 
 .grid-item {
   padding-right: 5px;

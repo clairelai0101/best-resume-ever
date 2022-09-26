@@ -111,14 +111,6 @@
     </div>
   </div>
   <div class="farRightCol">
-    <div class="section-headline">{{ lang.projects }}</div>
-    <div class="block" v-for="project in person.projects">
-      <div class="block-helper"></div>
-      <div class="headline">{{project.name}}</h3>
-        <div class="subheadline">{{project.timeperiod}}</div>
-        <p class="info">{{project.description}}</p>
-      </div>
-    </div>
     <div class="section-headline">{{ lang.education }}</div>
     <div class="block" v-for="education in person.education">
       <div class="block-helper"></div>
@@ -126,6 +118,14 @@
       <p class="info">
         {{education.timeperiod}}, {{education.description}}
       </p>
+    </div>
+    <div class="section-headline">{{ lang.projects }}</div>
+    <div class="block" v-for="project in person.projects">
+      <div class="block-helper"></div>
+      <div class="headline">{{project.name}}</h3>
+        <div class="subheadline">{{project.timeperiod}}</div>
+        <p class="info">{{project.description}}</p>
+      </div>
     </div>
   </div>
 
@@ -173,7 +173,6 @@ a {
         display: block;
         font-size: 1.17em;
         -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
         color: white;
@@ -197,7 +196,6 @@ a {
         display: block;
         font-size: 0.67em;
         font-size: 10pt;
-        -webkit-margin-before: 2.33em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
         padding-top: 0;
@@ -282,9 +280,9 @@ h4 {
     height: 100%;
     float: left;
     display: flex;
-    margin-top: 300px;
     flex-direction: column;
     margin-left: 10px;
+    padding-top: 150px;
     .block {
         width: 90%;
         position: relative;
@@ -366,13 +364,15 @@ h4 {
     margin-left: 30px;
     margin-right: 15px;
     .block {
-        width: 90%;
-        position: relative;
-        background-color: #ffffff;
-        padding: 20px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        display: inline-block;
+      width: 90%;
+      position: relative;
+      background-color: #ffffff;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      display: inline-block;
         .headline {
             font-weight: 300;
             display: block;
@@ -464,8 +464,8 @@ h4 {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        width: 75%;
-        height: 306px;
+        width: 180px;
+        height: 250px;
         margin: auto;
     }
     .item {

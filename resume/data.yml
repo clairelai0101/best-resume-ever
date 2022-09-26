@@ -6,7 +6,8 @@ name:
           賴彥瑾"
   middle:
   last: 
-about:  "CCIE#66257\n
+about:  "\n
+         CCIE#66257\n
                        JNCIP-SP,VCP.\n
                        Deep understanding of networking protocols, including BGP,FHRP, EIGRP, OSPF, QoS, DHCP, AAA, DMVPN .\n
                        Experience in Aruba SDWAN,Cisco Viptela SDWAN"
@@ -25,7 +26,7 @@ experience:
   description: "擔任網路工程師。\n
                     管理、操作網路設備約莫500台，廠牌有Cisco、juniper、fortinet、digipassport、broadcade。\n
                     自有AS number，與中國三大電信線路以及多家Global ISP BGP peering。\n
-                    1. 網路環境維運-Production、OOB、辦公室網路\\\n\
+                    1. 網路環境維運-Production、OOB、辦公室網路\n
                     （設備參數設定、韌體升級）。\n
                     2. DHCP server、VPN server建置與維運。\n
                     3. Out Of Band 網路監控調整維運。\n
@@ -49,7 +50,7 @@ experience:
   timeperiod: July 2016 - August 2016
   description: "承包協辦台中市政府活動「台中國際踩舞祭」協助招商、接待聯絡表演團體、安排餐食\n
                 住宿券銷售。\n
-                櫃檯及得來速點餐、例行清潔工作。\n"
+                櫃檯及得來速點餐、例行清潔工作。"
   website: https://zh-tw.facebook.com/people/%E8%91%B3%E7%BE%A4%E5%BB%A3%E5%91%8A%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/100063803687520/
 
 #- company: 台中國際旅展
@@ -85,7 +86,8 @@ skills:
 - name: Dynamic Protocol
   level: 99
 
-knowledge: Also proficient in SNMP/Netflow traffic analysis
+knowledge: "\n
+            Also proficient in SNMP/Netflow traffic analysis"
 
 
 projects:
