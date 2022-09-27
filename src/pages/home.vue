@@ -1,147 +1,10 @@
 <template>
 <div class="home">
-  <a href="https://www.484.life/#/resume/cool" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0; width: 10%; " src="https://cdn-icons-png.flaticon.com/512/282/282100.png"></a>
-  <div class="logo">
-    <img src="../assets/logo.png" />
+    <div class="logo">
+      <a href="https://www.484.life/#/resume/cool" target="_blank"><img style="position: center; top: 0; right: 0; border: 0; width: 10%; " src="https://cdn-icons-png.flaticon.com/512/282/282100.png"></a>
   </div>
-  <h3 class="title">best-resume-ever</h3>
+  <h3 class="title">my resume</h3>
   <div class="previews">
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-material-dark.png" />
-          <span>material-dark</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-     
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-material-dark-projects.png" />
-          <span>material-dark-projects</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-left-right.png" />
-          <span>left-right</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-left-right-projects.png" />
-          <span>left-right-projects</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-left-right-rtl.png" />
-          <span>left-right-rtl</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-oblique.png" />
-          <span>oblique</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-oblique-projects.png" />
-          <span>oblique-projects</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-        
-            <div class="preview-wrapper">
-                <img src="../assets/preview/resume-oblique-rtl.png" />
-                <span>oblique-rtl</span>
-            </div>
-        </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-side-bar.png" />
-          <span>side-bar</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-side-bar-projects.png" />
-          <span>side-bar-projects</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-side-bar-rtl.png" />
-          <span>side-bar-rtl</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-purple.png" />
-          <span>purple</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-creative.png" />
-          <span>creative</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-cool.png" />
-          <span>cool</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-cool-rtl.png" />
-          <span>cool-rtl</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-cool-rtl2.png" />
-          <span>cool-rtl2</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-green.png" />
-          <span>green</span>
-        </div>
-      </router-link>
-    </div>
   </div>
 </div>
 </template>
@@ -163,7 +26,7 @@ export default Vue.component('resume', {
 }
 
 .logo img {
-  height: 50px;
+  height: 100%;
   margin-top: 40px;
 }
 
