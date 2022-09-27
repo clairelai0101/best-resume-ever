@@ -219,6 +219,7 @@ export default Vue.component(name, getVueOptions(name));
   position: relative;
   font-family:'Roboto' !important;
   font-size: 0.9em;
+  overflow:scroll;
 }
 
 .picture {
