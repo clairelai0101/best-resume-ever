@@ -1,6 +1,6 @@
 <template>
 <div class="home">
-  <a href="https://www.484.life/#/resume/cv" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0; width: 10%; " src="https://cdn-icons-png.flaticon.com/512/282/282100.png"></a>
+  <a href="https://www.484.life/#/resume/cool" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0; width: 10%; " src="https://cdn-icons-png.flaticon.com/512/282/282100.png"></a>
   <div class="logo">
     <img src="../assets/logo.png" />
   </div>
