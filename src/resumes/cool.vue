@@ -226,7 +226,7 @@ export default Vue.component(name, getVueOptions(name));
   top: @banner-height - @picture-offset;
   left: @left-column-width + @base-padding * 2 - @picture-size / 2;
   height: @picture-size;
-  width: @picture-size;
+  width: 108px;
   border-radius: 50%;
   border: 5px solid @accent-color;
   content: url('../../resume/id.jpg');
@@ -334,6 +334,7 @@ export default Vue.component(name, getVueOptions(name));
     display: block;
     font-size: 1.1em;
     font-weight: 500;
+    padding-top: 10px;
   }
 
   &__subheader {

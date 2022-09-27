@@ -276,13 +276,14 @@ h4 {
     opacity: 1;
 }
 .farRightCol {
-    width: 39%;
-    height: 100%;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    padding-top: 150px;
+  width: 20%;
+  height: 100%;
+  position: inherit;
+  float: inherit;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-top: 10px;
     .block {
         width: 90%;
         position: relative;
@@ -291,6 +292,7 @@ h4 {
         margin-top: 5px;
         margin-bottom: 5px;
         display: inline-block;
+        
         .headline {
             font-weight: 300;
             display: block;
@@ -356,7 +358,7 @@ h4 {
     }
 }
 .rightCol {
-    width: 39%;
+    width: 46%;
     height: 100%;
     float: left;
     display: flex;
