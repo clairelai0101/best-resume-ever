@@ -7,10 +7,12 @@ name:
   middle:
   last: 
 about:  "\n
-         CCIE#66257\n
-                       JNCIP-SP,VCP.\n
-                       Deep understanding of networking protocols, including BGP,FHRP, EIGRP, OSPF, QoS, DHCP, AAA, DMVPN .\n
-                       Experience in Aruba SDWAN,Cisco Viptela SDWAN"
+         Certification： CCIE#66257\n
+                         JNCIP-SP\n
+                         VCP\n
+                         Deep understanding of networking protocols,\n
+                         including BGP,FHRP, EIGRP, OSPF, QoS, DHCP, AAA, DMVPN .\n
+                         Experience in Aruba SDWAN,Cisco Viptela SDWAN"
 position: Network Engineer
 
 birth:
