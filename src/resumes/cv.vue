@@ -13,7 +13,7 @@
       </div>
       <div class="text">
         <ul>
-          <li> {{lang.born}} {{person.birth.year}} {{lang.bornIn}} {{person.birth.location}}</li>
+          <li> {{lang.born}} {{lang.bornIn}} {{person.birth.year}}{{person.birth.location}}</li>
         </ul>
       </div>
     </div>

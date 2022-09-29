@@ -7,17 +7,16 @@ name:
   middle:
   last: 
 about:  "\n
-         Certification： CCIE#66257\n
-                         JNCIP-SP\n
-                         VCP\n
+         Certification：\n\n\nCCIE#66257,JNCIP-SP,VCP\n
+                         
                          Deep understanding of networking protocols,\n
                          including BGP,FHRP, EIGRP, OSPF, QoS, DHCP, AAA, DMVPN .\n
                          Experience in Aruba SDWAN,Cisco Viptela SDWAN"
 position: Network Engineer
 
 birth:
-  year: 1995
   location: Chunghua
+  year: 1995,
 
 # you may add more experiences by duplicating the template
 
@@ -34,8 +33,7 @@ experience:
                     3. Out Of Band 網路監控調整維運。\n
                     4. Data Center 核心交換器、邊際交換器優化與維運。\n
                     5. One-Time Password(OTP)防火牆控管、韌體升級、網路架構優化與維運\n
-                    6. 網路系統維護與管理\n
-                    （Solarwinds、Arbor-Netscout）\n
+                    6. 網路系統維護與管理（Solarwinds、Arbor-Netscout）\n
                     7. 異常事件處理\n
                     8. Oncall\n
                     9. 報告撰寫（採購報告、施工報告、結案報告）"
@@ -96,13 +94,14 @@ projects:
 - name: Aruba SDWAN 導入OOB
   platform: 
   timeperiod: July 2022
-  description: "OOB 導入Aruba Silver Peak SDWAN 解決方案，傳統路由簡化、IPsec tunnel加強資安強度、雙edge router HA、業務流量QoS效益"
+  description: "OOB 導入Aruba Silver Peak SDWAN 解決方案，傳統路由簡化、IPsec tunnel加強資安強度、雙edge router HA、業務流量QoS效益。"
 #  url: http：//www.484.life/resume/
 
 - name: 東南亞客戶VPN服務建置
   platform: 
   timeperiod: January 2022
-  description: "架設一組Fortigate 200E(HA）作為VPN Server，與Core Router建立BGP peering，客端撥通VPN後可走專線tunnel連線公司服務。\n\
+  description: "架設一組Fortigate 200E(HA）\n\
+                作為VPN Server，與Core Router建立BGP peering，客端撥通VPN後可走專線tunnel連線公司服務。\n\
                  2條專線跑RSTP協議，快速收斂，跨國連線不中斷。"
 #  url: http：//www.484.life/resume/
 
@@ -115,7 +114,7 @@ projects:
 - name: ManageEngine、Solarwinds網管系統佈建及管理
   platform: 
   timeperiod: September 2019 - now 2022
-  description: "Auto Discover Data Center 所有網路設備SNMP、排程進行設定檔備份，維護資料中心網路基礎架構穩定運作、並提升人員應變災難復原效率。客製儀表板顯示重要接口流量"
+  description: "Auto Discover Data Center 所有網路設備SNMP、排程進行設定檔備份，維護資料中心網路基礎架構穩定運作、並提升人員應變災難復原效率。客製儀表板顯示重要接口流量。"
 #  url: http：//www.484.life/resume/
 
 # optional, not all resume templates have hobbies included
