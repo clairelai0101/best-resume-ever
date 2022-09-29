@@ -199,7 +199,7 @@ export default Vue.component(name, getVueOptions(name));
 <style lang="less" scoped>
 @accent-color: #34495E;
 @banner-color: #42b883;
-@banner-height: 120px;
+@banner-height: 74px;
 @picture-size: 120px;
 @picture-offset: 35px;
 @base-padding: 30px;
